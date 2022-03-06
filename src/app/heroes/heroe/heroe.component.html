@@ -1,0 +1,19 @@
+<h1>{{nombre}}</h1>
+<dl>
+    <td> Nombre: </td>
+    <dd> {{nombre}} </dd>
+
+    <td> Edad: </td>
+    <dd> {{edad}} </dd>
+    
+    <td>Funcion o metodo: </td>
+    <dd> {{obtenerNombre()}} </dd>
+
+    <td>Capitalizado: </td>
+    <dd> {{nombre.toUpperCase()}} </dd>
+    <td>Capitalizado con un getter: </td>
+    <dd> {{nombreCapitalizado}} </dd>
+
+    <button (click)="cambiarNombre()"> Canbiar Heroe</button>
+    <button (click)="cambiarEdad()"> Canbiar edad</button>
+</dl>
